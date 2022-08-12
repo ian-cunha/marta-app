@@ -112,10 +112,9 @@ function App() {
         <div class="d-flex justify-content-center container-fluid">
           <div class="container">
             <img width="200px" class="center mt-5" src={anos} alt="Art by Marta" />
-            <h5 class="text-center container text-light fs-5 mt-5 mb-5">Marta tem mais de 20 anos de vivência e experiência no mercado imobiliário.<br />
-              Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis e centenas de milhares de empreendimentos e imóveis no mercado.
+            <h5 class="text-center container text-light fs-5 mt-5 mb-5">Marta coleta e analisa dados de um ecossistema que tem mais de 20 anos de experiência construindo soluções para o mercado imobiliário. Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis, e informações detalhadas de centenas de milhares de empreendimentos e imóveis do mercado.
             </h5>
-            <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica de nossos clientes.
+            <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica pelas incorporadoras e construtoras.
             </h3>
           </div>
         </div>
@@ -143,24 +142,24 @@ function App() {
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={diretoria} alt="Art by Marta" />
                   <h6 class="fw-semibold mt-2">Diretoria</h6>
-                  <p class="text-icon">Decisões baseadas em dados.
-                    Acesso às informações do mercado .
-                    Empreendimentos lançados no mercado com mais confiança.
+                  <p class="text-icon">Decisões baseadas em dados.<br/>
+                    Acesso às informações do mercado.<br/>
+                    Empreendimentos lançados no mercado<br/> com mais confiança.
                   </p>
                 </div>
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={comercial} alt="Art by Marta" />
                   <h6 class="fw-semibold mt-2">Comercial</h6>
-                  <p class="text-icon">Maior velocidade nas vendas.
-                    Time de vendas mais qualificado.
+                  <p class="text-icon">Maior velocidade nas vendas.<br/>
+                    Time de vendas mais qualificado.<br/>
                     Controle em toda a jornada do cliente.
                   </p>
                 </div>
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={marketing} alt="Art by Marta" />
                   <h6 class="fw-semibold mt-2">Marketing</h6>
-                  <p class="text-icon">Perfil do cliente-alvo da campanha conhecido.
-                    Campanhas baseadas em resultados atualizados.
+                  <p class="text-icon">Perfil do cliente-alvo da campanha conhecido.<br/>
+                    Campanhas baseadas em resultados atualizados.<br/>
                     Menor custo e investimento mais direcionado.
                   </p>
                 </div>
