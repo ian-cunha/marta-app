@@ -1,0 +1,196 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.color-1 {
+  color: #5B00BB;
+}
+
+.color-2 {
+  color: #FFAA03;
+}
+
+.color-3 {
+  color: #FF5A2D;
+}
+
+.bg-1 {
+  background-color: #5B00BB;
+}
+
+.bg-2 {
+  background-color: #FFAA03;
+}
+
+.bg-3 {
+  background-color: #FF5A2D;
+}
+
+.bg-4 {
+  background-color: #111111;
+}
+
+.justify {
+  text-align: justify;
+}
+
+p.text-icon {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding-bottom: 50px;
+  padding-top: 10rem;
+  background: url("assets/bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-bottom: -2px;
+}
+
+@media (max-width: 600px) {
+  .masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding-bottom: 50px;
+    padding-top: 10rem;
+    background: url("assets/bg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-bottom: -100px;
+  }
+}
+
+.masthead h1 {
+  color: #ffffff;
+}
+
+.masthead h2 {
+  color: #ffffff;
+}
+
+.masthead h4 {
+  color: #ffffff;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+.about-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.how-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: #5B00BB;
+}
+
+.how-section p {
+  margin-bottom: 5rem;
+}
+
+.how-section2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-color: white;
+}
+
+.how-section2 p {
+  margin-bottom: 5rem;
+}
+
+.how-section3 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.how-section3 p {
+  margin-bottom: 5rem;
+}
+
+.how-section4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background: rgb(255, 170, 3);
+}
+
+.how-section4 p {
+  margin-bottom: 5rem;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.mobile {
+  width: auto;
+  text-align: center;
+}
+
+.mobile h2 {
+  font-size: 3em;
+}
+
+.mobile h4 {
+  font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+  .mobile {
+    width: auto;
+    text-align: center;
+  }
+
+  .mobile h2 {
+    padding-top: 40px;
+    font-size: 1.8em;
+  }
+
+  .mobile h4 {
+    font-size: 1em;
+  }
+}
+
+.chave {
+  animation: beat .35s infinite alternate;
+	transform-origin: center;
+}
+
+@keyframes beat{
+	to { transform: scale(0.9); }
+}
+
+.card {
+  width: 40rem
+}
