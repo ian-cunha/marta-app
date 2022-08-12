@@ -1,6 +1,6 @@
 import './App.css'
 import logoMarta from "./assets/logoMarta.svg";
-import about from "./assets/about.svg";
+import about from "./assets/about.webp";
 import porto from "./assets/porto.svg";
 import inovativa from "./assets/inovativa.svg";
 import scaleup from "./assets/scaleup.svg";
