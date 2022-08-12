@@ -50,7 +50,7 @@ function App() {
                   <a class="nav-link" href="#marta">A Marta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#como-funciona">Como funciona</a>
+                  <a class="nav-link" href="#como-funciona">Como funciona?</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#numeros">Números</a>
@@ -59,7 +59,7 @@ function App() {
                   <a class="nav-link" href="#parceiros">Parceiros</a>
                 </li>
               </ul>
-              <a class="color-1 nav-link fw-bold" target="_blank" href="https://app.deixacommarta.com.br/">Login <i class="bi bi-box-arrow-in-right"></i></a>
+              <a class="login nav-link fw-bold" target="_blank" href="https://app.deixacommarta.com.br/">Login <i class="bi bi-box-arrow-in-right"></i></a>
             </div>
           </div>
         </nav>
@@ -79,7 +79,7 @@ function App() {
           <div>
             <h2 class="fw-bold text-center mt-4">A Marta</h2>
             <p class="color-3 mb-3 fs-1 fw-semibold text-center">#MARTALEVELUP</p>
-            <p class="justify container fs-5 mb-5">Nascida em 2018, Marta é uma startup em plena fase de crescimento que vem movimentando a era da inteligência imobiliária. Seus fundadores vem de mais de duas décadas de atuação em tecnologia para o mercado imobiliário, estando à frente de portal imobiliário, CRM e outros serviços digitais. Marta chega então já cheia de bagagem, por isso sua trajetória, embora curta, já apresenta uma curva acentuada de desenvolvimento. Em dois anos, a empresa passou por acelerações e rodadas de investimentos, resultando em números e parcerias cada vez mais promissoras.</p>
+            <h6 class="justify container fs-5 mb-5">Nascida em 2018, Marta é uma startup em plena fase de crescimento que vem movimentando a era da inteligência imobiliária. Seus fundadores vem de mais de duas décadas de atuação em tecnologia para o mercado imobiliário, estando à frente de portal imobiliário, CRM e outros serviços digitais. Marta chega então já cheia de bagagem, por isso sua trajetória, embora curta, já apresenta uma curva acentuada de desenvolvimento. Em dois anos, a empresa passou por acelerações e rodadas de investimentos, resultando em números e parcerias cada vez mais promissoras.</h6>
           </div>
         </div>
         <div class="d-flex text-center justify-content-center align-items-center bg-2 w-100 pt-4 overflow-auto">
@@ -114,7 +114,7 @@ function App() {
             <img width="200px" class="center mt-5" src={anos} alt="Art by Marta" />
             <h5 class="text-center container text-light fs-5 mt-5 mb-5">Marta coleta e analisa dados de um ecossistema que tem mais de 20 anos de experiência construindo soluções para o mercado imobiliário. Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis, e informações detalhadas de centenas de milhares de empreendimentos e imóveis do mercado.
             </h5>
-            <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica pelas incorporadoras e construtoras.
+            <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica pelas incorporadoras e construtoras.
             </h3>
           </div>
         </div>
@@ -124,7 +124,7 @@ function App() {
       <div class="how-section">
         <div class="pt-5 d-flex justify-content-center container-fluid">
           <div class="container">
-            <h2 class="fw-bold text-light text-center mt-5 mb-5">Como funciona?</h2>
+            <h2 class="fw-bold fs-1 text-light text-center mt-5 mb-5">Como funciona?</h2>
             <img width="100%" class="d-inline-block align-text-top" src={grafdesktop} alt="Art by Marta" />
             <h5 class="text-center container text-light fs-5 mt-5 mb-5">Acreditamos que o comportamento do mercado muda o tempo todo e por isso usamos a tecnologia para acompanhar a mudança em <strong class="color-2">TEMPO REAL</strong>.</h5>
           </div>
@@ -142,24 +142,24 @@ function App() {
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={diretoria} alt="Art by Marta" />
                   <h6 class="fw-semibold mt-2">Diretoria</h6>
-                  <p class="text-icon">Decisões baseadas em dados.<br/>
-                    Acesso às informações do mercado.<br/>
-                    Empreendimentos lançados no mercado<br/> com mais confiança.
+                  <p class="text-icon">Decisões baseadas em dados.<br />
+                    Acesso às informações do mercado.<br />
+                    Empreendimentos lançados no mercado<br /> com mais confiança.
                   </p>
                 </div>
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={comercial} alt="Art by Marta" />
                   <h6 class="fw-semibold mt-2">Comercial</h6>
-                  <p class="text-icon">Maior velocidade nas vendas.<br/>
-                    Time de vendas mais qualificado.<br/>
+                  <p class="text-icon">Maior velocidade nas vendas.<br />
+                    Time de vendas mais qualificado.<br />
                     Controle em toda a jornada do cliente.
                   </p>
                 </div>
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={marketing} alt="Art by Marta" />
                   <h6 class="fw-semibold mt-2">Marketing</h6>
-                  <p class="text-icon">Perfil do cliente-alvo da campanha conhecido.<br/>
-                    Campanhas baseadas em resultados atualizados.<br/>
+                  <p class="text-icon">Perfil do cliente-alvo da campanha conhecido.<br />
+                    Campanhas baseadas em resultados atualizados.<br />
                     Menor custo e investimento mais direcionado.
                   </p>
                 </div>
@@ -193,7 +193,7 @@ function App() {
       <div class="how-section4">
         <div class="d-flex justify-content-center container-fluid">
           <div class="container">
-            <h2 class="fw-bold text-center mt-5 color-3">Benefícios</h2>
+            <h2 class="fw-bold fs-1 text-center mt-5 color-3">Benefícios</h2>
             <div class="container mt-5">
               <div class="row">
                 <div class="col-sm text-center">
@@ -331,7 +331,7 @@ function App() {
             <a class="redes" target="_blank" href="https://www.facebook.com/martainteligenciaimobiliaria"><i class="bi bi-facebook m-2 fs-1"></i></a>
           </div>
         </div>
-        <p class="text-center container fs-7 mt-2 mb-2">"Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM."
+        <p class="text-center fw-light container fs-7 mt-2 mb-2">"Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM."
           <a target="_blank" class="text-light" href="https://deixacommarta.com.br/privacidade.php"> Política de privacidade </a></p>
       </footer>
 

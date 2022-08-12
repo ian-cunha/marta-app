@@ -79,7 +79,7 @@ p.text-icon {
   color: #ffffff;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 601px) {
   .masthead {
     height: 70vh;
     padding: 0;
@@ -177,4 +177,13 @@ img.center {
 
 .redes:hover {
   color: #FF5A2D;
+}
+
+.login {
+  color: #5B00BB;
+}
+
+.login:hover {
+  color: #FFAA03;
+  text-decoration: underline;
 }
