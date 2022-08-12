@@ -77,40 +77,53 @@ function App() {
         <img width="100%" class="d-inline-block align-text-top" src={about} alt="Sobre Marta" />
         <div class="d-flex justify-content-center container-fluid">
           <div>
-            <h2 class="fw-bold text-center mt-5">A Marta</h2>
-            <p class="color-3 fs-1 fw-semibold text-center">#MARTALEVELUP</p>
-            <h5 class="justify container fs-5">Nascida em 2018, Marta é uma startup em plena fase de crescimento que vem movimentando a era da inteligência imobiliária. Seus fundadores vem de mais de duas décadas de atuação em tecnologia para o mercado imobiliário, estando à frente de portal imobiliário, CRM e outros serviços digitais. Marta chega então já cheia de bagagem, por isso sua trajetória, embora curta, já apresenta uma curva acentuada de desenvolvimento. Em dois anos, a empresa passou por acelerações e rodadas de investimentos, resultando em números e parcerias cada vez mais promissoras.</h5>
-            <div class="d-flex justify-content-center align-items-center container">
-              <div class="row mt-5">
-                <div class="col-sm">
-                  <img width="150px" class="m-2" src={porto} alt="Porto Digital" />
-                </div>
-                <div class="col-sm">
-                  <img width="150px" class="m-2" src={inovativa} alt="Inovativa" />
-                </div>
-                <div class="col-sm">
-                  <img width="150px" class="m-2" src={scaleup} alt="Scale UP" />
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col-sm">
-                  <img width="150px" class="m-2" src={farm} alt="Startup Farm" />
-                </div>
-                <div class="col-sm">
-                  <img width="150px" class="m-2" src={superjobs} alt="Superjobs" />
-                </div>
-                <div class="col-sm">
-                  <img width="150px" class="m-2" src={softex} alt="Softex" />
-                </div>
-              </div>
+            <h2 class="fw-bold text-center mt-4">A Marta</h2>
+            <p class="color-3 mb-3 fs-1 fw-semibold text-center">#MARTALEVELUP</p>
+            <p class="justify container fs-5 mb-5">Nascida em 2018, Marta é uma startup em plena fase de crescimento que vem movimentando a era da inteligência imobiliária. Seus fundadores vem de mais de duas décadas de atuação em tecnologia para o mercado imobiliário, estando à frente de portal imobiliário, CRM e outros serviços digitais. Marta chega então já cheia de bagagem, por isso sua trajetória, embora curta, já apresenta uma curva acentuada de desenvolvimento. Em dois anos, a empresa passou por acelerações e rodadas de investimentos, resultando em números e parcerias cada vez mais promissoras.</p>
+          </div>
+        </div>
+        <div class="d-flex text-center justify-content-center align-items-center bg-2 w-100 pt-4 overflow-auto">
+          <div class="row m-2">
+            <div class="col-sm">
+              <img width="100px" class="pb-4" src={porto} alt="Porto Digital" />
             </div>
+            <div class="col-sm">
+              <img width="100px" class="pb-4" src={inovativa} alt="Inovativa" />
+            </div>
+            <div class="col-sm">
+              <img width="100px" class="pb-4" src={farm} alt="Startup Farm" />
+            </div>
+          </div>
+          <div class="row m-2">
+            <div class="col-sm">
+              <img width="100px" class="pb-4" src={scaleup} alt="Scale UP" />
+            </div>
+            <div class="col-sm">
+              <img width="100px" class="pb-4" src={superjobs} alt="Superjobs" />
+            </div>
+            <div class="col-sm">
+              <img width="100px" class="pb-4" src={softex} alt="Softex" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="how-section">
+        <div class="d-flex justify-content-center container-fluid">
+          <div class="container">
+            <img width="200px" class="center mt-5" src={anos} alt="Art by Marta" />
+            <h5 class="text-center container text-light fs-5 mt-5 mb-5">Marta tem mais de 20 anos de vivência e experiência no mercado imobiliário.<br />
+              Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis e centenas de milhares de empreendimentos e imóveis no mercado.
+            </h5>
+            <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica de nossos clientes.
+            </h3>
           </div>
         </div>
         <div id="como-funciona"></div>
       </div>
 
       <div class="how-section">
-        <div class="mt-5 d-flex justify-content-center container-fluid">
+        <div class="pt-5 d-flex justify-content-center container-fluid">
           <div class="container">
             <h2 class="fw-bold text-light text-center mt-5 mb-5">Como funciona?</h2>
             <img width="100%" class="d-inline-block align-text-top" src={grafdesktop} alt="Art by Marta" />
@@ -157,34 +170,23 @@ function App() {
         </div>
       </div>
 
-      <div class="how-section">
-        <div class="d-flex justify-content-center container-fluid">
-          <div class="container">
-            <img width="200px" class="center mt-5" src={anos} alt="Art by Marta" />
-            <h5 class="text-center container text-light fs-5 mt-5 mb-5">Marta tem mais de 20 anos de vivência e experiência no mercado imobiliário.<br />
-              Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis e centenas de milhares de empreendimentos e imóveis no mercado.
-            </h5>
-            <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">“Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica de nossos clientes.”
-            </h3>
-          </div>
-        </div>
-      </div>
-
-
-
-
-
       <div class="how-section2">
         <div class="mt-5 d-flex justify-content-center container-fluid">
           <div class="container">
             <h2 class="fw-bold mb-4 text-center mt-5 color-1">INTELIGÊNCIA<br />IMOBILIÁRIA</h2>
-            <img width="200px" class="center" src={cubo} alt="Art by Marta" />
-            <h2 class="fw-bold fs-4 text-center mt-5 color-1">Agentes<br /><span class="color-3">Empreendimentos</span><br /><span class="color-2">Clientes e Jornada de Compra</span></h2>
-            <ul class="list-group list-group-flush list-group-numbered fw-semibold mt-2 mb-5">
-              <li class="list-group-item">Sistêmica e completa</li>
-              <li class="list-group-item">Atualizada em tempo real</li>
-              <li class="list-group-item">Fortemente amparada em tecnologia e dados</li>
-            </ul>
+            <div class="d-flex justify-content-evenly align-items-center flex-sm-row flex-column mb-5">
+              <div>
+                <img width="250px" class="center" src={cubo} alt="Art by Marta" />
+              </div>
+              <div>
+                <h2 class="fw-bold fs-4 mt-5 color-1">Agentes<br /><span class="color-3">Empreendimentos</span><br /><span class="color-2">Clientes e Jornada de Compra</span></h2>
+                <ul class="list-group list-group-flush list-group-numbered fw-semibold mt-2 mb-5">
+                  <li class="list-group-item">Sistêmica e completa</li>
+                  <li class="list-group-item">Atualizada em tempo real</li>
+                  <li class="list-group-item">Fortemente amparada em tecnologia e dados</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -192,7 +194,7 @@ function App() {
       <div class="how-section4">
         <div class="d-flex justify-content-center container-fluid">
           <div class="container">
-            <h2 class="fw-bold text-center mt-5 color-3">Principais benefícios</h2>
+            <h2 class="fw-bold text-center mt-5 color-3">Benefícios</h2>
             <div class="container mt-5">
               <div class="row">
                 <div class="col-sm text-center">
@@ -222,7 +224,7 @@ function App() {
           </div>
         </div>
         <div class="container">
-          <h2 class="fw-bold text-center mt-5 color-3">Benefícios</h2>
+          <h2 class="fw-bold text-center mt-5 color-1">Marta não é o destino. Marta é o caminho.</h2>
           <div class="container mt-5">
             <div class="row m-3">
               <div class="d-flex align-items-center justify-content-center col-sm">
@@ -262,8 +264,7 @@ function App() {
             </div>
           </div>
         </div>
-        <h5 class="fs-6 fw-bold text-center mt-5 color-1 m-2">Marta não é o destino. Marta é o caminho.</h5>
-        <h2 id="numeros" class="fs-1 pb-5 fw-bold text-center color-3">#deixacommarta</h2>
+        <h2 id="numeros" class="fs-1 pb-5 fw-bold mt-5 text-center color-3">#deixacommarta</h2>
       </div>
 
       <div>
@@ -297,19 +298,19 @@ function App() {
       </div>
 
       <div class="how-section">
-        <div id="parceiros" class="d-flex justify-content-center container-fluid mb-5">
+        <div id="parceiros" class="d-flex justify-content-center container-fluid">
           <div class="container">
             <h2 class="fw-bold text-center mt-5 fs-1 color-2">Parceiros</h2>
             <div class="container mt-5">
               <div class="row">
                 <div class="col-sm text-center">
-                  <img width="200px" class="center mb-5" src={expoimovel} alt="Expo Imovel" />
+                  <img width="130px" class="center mb-5" src={expoimovel} alt="Expo Imovel" />
                 </div>
                 <div class="col-sm text-center">
-                  <img width="200px" class="center mb-5" src={ademiimoveis} alt="Ademi Imoveis" />
+                  <img width="130px" class="center mb-5" src={ademiimoveis} alt="Ademi Imoveis" />
                 </div>
                 <div class="col-sm text-center">
-                  <img width="200px" class="center mb-5" src={ademipe} alt="Ademi PE" />
+                  <img width="130px" class="center mb-5" src={ademipe} alt="Ademi PE" />
                 </div>
               </div>
             </div>
@@ -317,20 +318,22 @@ function App() {
         </div>
       </div>
 
-      <footer clas="container-fluid">
-        <div class="card w-100 text-center">
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><img width="200px" class="center mt-2 mb-2" src={logoMarta} alt="Art by Marta" /></li>
-            <li class="list-group-item">
-              <a target="_blank" href="https://www.instagram.com/martainteligenciaimobiliaria/"><i class="bi bi-instagram m-2 color-2 fs-1"></i></a>
-              <a target="_blank" href="https://www.linkedin.com/company/marta-inteligencia-imobiliaria"><i class="bi bi-linkedin m-2 color-2 fs-1"></i></a>
-              <a target="_blank" href="https://www.facebook.com/martainteligenciaimobiliaria"><i class="bi bi-facebook m-2 color-2 fs-1"></i></a>
-            </li>
-            <li class="list-group-item"><h5 class="text-center container fs-6 mt-2 mb-2">@ 2022 Marta Inteligência Imobiliária - Av. Barbosa Lima, 149 - Sala 416 - Recife, PE, 50030-330 </h5></li>
-            <li class="list-group-item"><p class="text-center container fs-7 mt-2 mb-2">"Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM."
-              <a target="_blank" class="text-dark" href="https://deixacommarta.com.br/privacidade.php"> Política de privacidade </a></p></li>
-          </ul>
+      <footer class="bg-dark text-light p-5">
+        <div class="d-flex flex-sm-row flex-column justify-content-around align-items-center">
+          <div>
+            <img width="200px" class="center mt-2 mb-2" src={logoMarta} alt="Art by Marta" />
+          </div>
+          <div>
+            <h5 class="text-center container fs-6 mt-2 mb-2">@ 2022 Marta Inteligência Imobiliária - Av. Barbosa Lima, 149 - Sala 416 - Recife, PE, 50030-330 </h5>
+          </div>
+          <div>
+            <a class="redes" target="_blank" href="https://www.instagram.com/martainteligenciaimobiliaria/"><i class="bi bi-instagram m-2 fs-1"></i></a>
+            <a class="redes" target="_blank" href="https://www.linkedin.com/company/marta-inteligencia-imobiliaria"><i class="bi bi-linkedin m-2 fs-1"></i></a>
+            <a class="redes" target="_blank" href="https://www.facebook.com/martainteligenciaimobiliaria"><i class="bi bi-facebook m-2 fs-1"></i></a>
+          </div>
         </div>
+        <p class="text-center container fs-7 mt-2 mb-2">"Prometemos não utilizar suas informações de contato para enviar qualquer tipo de SPAM."
+          <a target="_blank" class="text-light" href="https://deixacommarta.com.br/privacidade.php"> Política de privacidade </a></p>
       </footer>
 
     </div>
