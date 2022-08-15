@@ -68,8 +68,8 @@ function App() {
       <div class="masthead">
         <div class="container d-flex w-100 h-100 align-items-center">
           <div class="mobile">
-            <h1 class="fs-1 fw-bold">Informação e inteligência Imobiliária <span>acessível e em <strong class="color-2">tempo real</strong>.</span></h1>
-            <h4>Crie times espetaculares, atenda o cliente com excelência, aprenda com a jornada, e feche mais vendas.</h4></div>
+            <h1 class="fs-1 fw-bold">Informação e inteligência para o mercado imobiliário acessível e em <strong class="color-2">tempo real</strong>.</h1>
+            <h4>O mercado muda o tempo todo e nós monitoramos a oferta e a demanda continuamente para você criar a melhor estratégia e tomar a melhor decisão.</h4></div>
         </div>
       </div>
 
@@ -273,22 +273,22 @@ function App() {
             <div class="container mt-5">
               <div class="row">
                 <div class="col-sm text-center">
-                  <h2 class="text-icon fs-1 fw-bold color-1">+62 milhões</h2>
-                  <p class="text-icon fs-6 mt-2">Vendas realizadas em Marta</p>
+                  <h2 class="text-icon fs-1 fw-bold color-1">+20 anos</h2>
+                  <p class="text-icon fs-6 mt-2">dados coletados e analisados.</p>
                 </div>
                 <div class="col-sm text-center">
-                  <h2 class="text-icon fs-1 fw-bold color-1">+150 mil</h2>
-                  <p class="text-icon fs-6 mt-2">Clientes interessados em comprar imóveis</p>
+                  <h2 class="text-icon fs-1 fw-bold color-1">+100 milhões</h2>
+                  <p class="text-icon fs-6 mt-2">atividades imobiliárias monitoradas.</p>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm text-center">
-                  <h2 class="text-icon fs-1 fw-bold color-1">+150</h2>
-                  <p class="text-icon fs-6 mt-2">Imobiliárias e corretores realizando atendimento</p>
+                  <h2 class="text-icon fs-1 fw-bold color-1">+150 mil</h2>
+                  <p class="text-icon fs-6 mt-2">Imóveis e empreendimentos cadastrados.</p>
                 </div>
                 <div class="col-sm text-center">
-                  <h2 class="text-icon fs-1 fw-bold color-1">+45 milhões</h2>
-                  <p class="text-icon fs-6 mt-2">Atividades imobiliárias monitoradas</p>
+                  <h2 class="text-icon fs-1 fw-bold color-1">+10 mil</h2>
+                  <p class="text-icon fs-6 mt-2">Incorporadoras, corretores e imobiliárias.</p>
                 </div>
               </div>
             </div>
