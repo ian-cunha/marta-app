@@ -57,7 +57,8 @@ p.text-icon {
     width: 100%;
     height: auto;
     min-height: 30rem;
-    padding-top: 12rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
     background: url("assets/bg.webp");
     background-position: center;
     background-repeat: no-repeat;
@@ -82,6 +83,7 @@ p.text-icon {
 @media (min-width: 601px) {
   .masthead {
     height: 70vh;
+    margin-top: 50px;
     padding: 0;
   }
 }
@@ -160,11 +162,13 @@ img.center {
 
 .chave {
   animation: beat .35s infinite alternate;
-	transform-origin: center;
+  transform-origin: center;
 }
 
-@keyframes beat{
-	to { transform: scale(0.9); }
+@keyframes beat {
+  to {
+    transform: scale(0.9);
+  }
 }
 
 .card {
@@ -184,6 +188,14 @@ img.center {
 }
 
 .login:hover {
-  color: #FFAA03;
+  color: #ffffff;
   text-decoration: underline;
+}
+
+.navb {
+  color: #ffffff;
+}
+
+.navb:hover {
+  color: #2c2c2c;
 }

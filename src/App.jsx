@@ -1,6 +1,6 @@
 import './App.css'
+import logoMartaWhite from "./assets/logoMartaWhite.svg";
 import logoMarta from "./assets/logoMarta.svg";
-import about from "./assets/about.webp";
 import porto from "./assets/porto.svg";
 import inovativa from "./assets/inovativa.svg";
 import scaleup from "./assets/scaleup.svg";
@@ -14,7 +14,6 @@ import comercial from "./assets/comercial.svg";
 import marketing from "./assets/marketing.svg";
 import anos from "./assets/20anos.svg";
 import cubo from "./assets/cubo.svg";
-import trade from "./assets/trade.svg";
 import beneficio1 from "./assets/beneficio1.svg";
 import beneficio2 from "./assets/beneficio2.svg";
 import beneficio3 from "./assets/beneficio3.svg";
@@ -35,31 +34,31 @@ function App() {
     <div className="App">
 
       <main>
-        <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg bg-2">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img width="120px" class="d-inline-block align-text-top" src={logoMarta} alt="Marta" /></a>
+            <a class="navbar-brand" href="#"><img width="120px" class="d-inline-block align-text-top" src={logoMartaWhite} alt="Marta" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll fw-bold">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll fw-semibold">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Página inicial</a>
+                  <a class="nav-link navb" aria-current="page" href="#">Página inicial</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#marta">A Marta</a>
+                  <a class="nav-link navb" href="#marta">A Marta</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#como-funciona">Como funciona?</a>
+                  <a class="nav-link navb" href="#como-funciona">Como funciona?</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#numeros">Números</a>
+                  <a class="nav-link navb" href="#numeros">Números</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#parceiros">Parceiros</a>
+                  <a class="nav-link navb" href="#parceiros">Parceiros</a>
                 </li>
               </ul>
-              <a class="login nav-link fw-bold" target="_blank" href="https://app.deixacommarta.com.br/">Login <i class="bi bi-box-arrow-in-right"></i></a>
+              <a class="login nav-link fw-semibold" target="_blank" href="https://app.deixacommarta.com.br/">Login <i class="bi bi-box-arrow-in-right"></i></a>
             </div>
           </div>
         </nav>
@@ -68,16 +67,15 @@ function App() {
       <div class="masthead">
         <div class="container d-flex w-100 h-100 align-items-center">
           <div class="mobile">
-            <h1 class="fs-1 fw-bold">Informação e inteligência para o mercado imobiliário acessível e em <strong class="color-2">tempo real</strong>.</h1>
-            <h4>O mercado muda o tempo todo e nós monitoramos a oferta e a demanda continuamente para você criar a melhor estratégia e tomar a melhor decisão.</h4></div>
+            <h1 class="fs-1 fw-bold p-2">Informação e inteligência para o mercado imobiliário acessível e em <strong class="color-2">tempo real</strong>.</h1>
+            <h4 class="p-2">Nós criamos inteligência sobre o mercado imobiliário, utilizando dados de um ecossistema cada vez maior e mais conectado, para auxiliar na tomada de decisões mais acertadas pelas melhores incorporadoras e construtoras.</h4></div>
         </div>
+        <div id="marta"></div>
       </div>
 
-      <div id="marta" class="about-section">
-        <img width="100%" class="d-inline-block align-text-top" src={about} alt="Sobre Marta" />
+      <div class="about-section mt-5">
         <div class="d-flex justify-content-center container-fluid">
           <div>
-            <h2 class="fw-bold text-center mt-4">A Marta</h2>
             <p class="color-3 mb-3 fs-1 fw-semibold text-center">#MARTALEVELUP</p>
             <h6 class="justify container fs-5 mb-5">Nascida em 2018, Marta é uma startup em plena fase de crescimento que vem movimentando a era da inteligência imobiliária. Seus fundadores vem de mais de duas décadas de atuação em tecnologia para o mercado imobiliário, estando à frente de portal imobiliário, CRM e outros serviços digitais. Marta chega então já cheia de bagagem, por isso sua trajetória, embora curta, já apresenta uma curva acentuada de desenvolvimento. Em dois anos, a empresa passou por acelerações e rodadas de investimentos, resultando em números e parcerias cada vez mais promissoras.</h6>
           </div>
@@ -111,7 +109,7 @@ function App() {
       <div class="how-section">
         <div class="d-flex justify-content-center container-fluid">
           <div class="container">
-            <img width="200px" class="center mt-5" src={anos} alt="Art by Marta" />
+            <img width="160px" class="center mt-5" src={anos} alt="Art by Marta" />
             <h5 class="text-center container text-light fs-5 mt-5 mb-5">Marta coleta e analisa dados de um ecossistema que tem mais de 20 anos de experiência construindo soluções para o mercado imobiliário. Durante todo esse tempo, monitoramos milhões de atividades de clientes interessados em imóveis, e informações detalhadas de centenas de milhares de empreendimentos e imóveis do mercado.
             </h5>
             <h3 class="text-center container color-2 fs-4 fw-bold mt-5 mb-5">Nosso propósito é transformar dados em conhecimento e inteligência para tomada de ação estratégica pelas incorporadoras e construtoras.
@@ -124,9 +122,30 @@ function App() {
       <div class="how-section">
         <div class="pt-5 d-flex justify-content-center container-fluid">
           <div class="container">
-            <h2 class="fw-bold fs-1 text-light text-center mt-5 mb-5">Como funciona?</h2>
+            <h2 class="fw-bold fs-1 text-light text-center mb-5">Como funciona?</h2>
             <img width="100%" class="d-inline-block align-text-top" src={grafdesktop} alt="Art by Marta" />
             <h5 class="text-center container text-light fs-5 mt-5 mb-5">Acreditamos que o comportamento do mercado muda o tempo todo e por isso usamos a tecnologia para acompanhar a mudança em <strong class="color-2">TEMPO REAL</strong>.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="how-section2">
+        <div class="mt-5 d-flex justify-content-center container-fluid">
+          <div class="container">
+            <h2 class="fw-bold mb-4 text-center color-1">INTELIGÊNCIA<br />IMOBILIÁRIA</h2>
+            <div class="d-flex justify-content-evenly align-items-center flex-sm-row flex-column mb-5">
+              <div>
+                <img width="250px" class="center" src={cubo} alt="Art by Marta" />
+              </div>
+              <div>
+                <h2 class="fw-bold fs-4 mt-5 color-1">Agentes<br /><span class="color-3">Empreendimentos</span><br /><span class="color-2">Clientes e Jornada de Compra</span></h2>
+                <ul class="list-group list-group-flush list-group-numbered fw-semibold mt-2 mb-5">
+                  <li class="list-group-item">Sistêmica e completa</li>
+                  <li class="list-group-item">Atualizada em tempo real</li>
+                  <li class="list-group-item">Fortemente amparada em tecnologia e dados</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -170,31 +189,10 @@ function App() {
       </div>
 
       <div class="how-section2">
-        <div class="mt-5 d-flex justify-content-center container-fluid">
-          <div class="container">
-            <h2 class="fw-bold mb-4 text-center mt-5 color-1">INTELIGÊNCIA<br />IMOBILIÁRIA</h2>
-            <div class="d-flex justify-content-evenly align-items-center flex-sm-row flex-column mb-5">
-              <div>
-                <img width="250px" class="center" src={cubo} alt="Art by Marta" />
-              </div>
-              <div>
-                <h2 class="fw-bold fs-4 mt-5 color-1">Agentes<br /><span class="color-3">Empreendimentos</span><br /><span class="color-2">Clientes e Jornada de Compra</span></h2>
-                <ul class="list-group list-group-flush list-group-numbered fw-semibold mt-2 mb-5">
-                  <li class="list-group-item">Sistêmica e completa</li>
-                  <li class="list-group-item">Atualizada em tempo real</li>
-                  <li class="list-group-item">Fortemente amparada em tecnologia e dados</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="how-section4">
         <div class="d-flex justify-content-center container-fluid">
           <div class="container">
-            <h2 class="fw-bold fs-1 text-center mt-5 color-3">Benefícios</h2>
-            <div class="container mt-5">
+            <h2 class="fw-bold fs-1 text-center mt-5 color-1">Benefícios</h2>
+            <div class="container mt-5 mb-5">
               <div class="row">
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={beneficio1} alt="Art by Marta" />
@@ -206,8 +204,6 @@ function App() {
                   <p class="text-icon fs-6 mt-2">Receba insights para aproveitar ao máximo as informações capturadas e analisadas.
                   </p>
                 </div>
-              </div>
-              <div class="row">
                 <div class="col-sm text-center">
                   <img width="100px" class="center" src={beneficio3} alt="Art by Marta" />
                   <p class="text-icon fs-6 mt-2">Acompanhe e compare a performance dos seus empreendimentos com a concorrência no mercado.
@@ -222,8 +218,11 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="how-section4">
         <div class="container">
-          <h2 class="fw-bold text-center mt-5 color-1">Marta não é o destino. Marta é o caminho.</h2>
+          <h2 class="fw-bold text-center color-1 pt-5">Marta não é o destino. Marta é o caminho.</h2>
           <div class="container mt-5">
             <div class="row m-3">
               <div class="d-flex align-items-center justify-content-center col-sm">
