@@ -14,6 +14,16 @@ body {
   color: #FF5A2D;
 }
 
+.download {
+  background-color: #5B00BB;
+  color: white;
+}
+
+.download:hover {
+  background-color: #FFAA03;
+  color: white;
+}
+
 .bg-1 {
   background-color: #5B00BB;
 }
@@ -171,10 +181,6 @@ img.center {
   }
 }
 
-.card {
-  width: 40rem
-}
-
 .redes {
   color: #FFAA03;
 }
@@ -198,4 +204,35 @@ img.center {
 
 .navb:hover {
   color: #2c2c2c;
+}
+
+.indices {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  background-color: #5B00BB;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .indices {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 30rem;
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+    background-color: #5B00BB;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    overflow: hidden;
+  }
 }
