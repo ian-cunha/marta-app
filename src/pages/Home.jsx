@@ -27,6 +27,7 @@ import ademiimoveis from "../assets/ademiimoveis.svg";
 import ademipe from "../assets/ademi-pe.svg";
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Whatsapp from '../components/Whatsapp';
 
 function Home() {
 
@@ -34,6 +35,7 @@ function Home() {
     <div>
 
       <Nav />
+      <Whatsapp />
 
       <div className="masthead">
         <div className="container d-flex w-100 h-100 align-items-center">

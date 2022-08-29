@@ -1,11 +1,13 @@
 import SubNav from '../components/SubNav'
 import Footer from '../components/Footer'
+import Whatsapp from '../components/Whatsapp'
 
 function Indices() {
 
   return (
     <div>
       <SubNav />
+      <Whatsapp />
 
       <div className='indices'>
         <div className='container-fluid'>

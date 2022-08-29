@@ -236,3 +236,23 @@ img.center {
     overflow: hidden;
   }
 }
+
+.wpp-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 15px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+  border: 0;
+}
+
+.wpp-button:hover {
+  background-color: #075e54;
+  color: #FFF;
+}
