@@ -1,4 +1,3 @@
-import '../App.css'
 import porto from "../assets/porto.svg";
 import inovativa from "../assets/inovativa.svg";
 import scaleup from "../assets/scaleup.svg";

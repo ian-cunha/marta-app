@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import Home from './pages/Home';
 import Indices from './pages/Indices';
+import './global.css'
 
 function App() {
   return (
