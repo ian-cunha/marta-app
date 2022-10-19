@@ -34,6 +34,16 @@ function Indices() {
               </div>
             </div>
 
+            <div className="col-sm-6 m-2">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Índice Marta/Ademi</h5>
+                  <p className="card-text fs-2 fw-semibold">AGO/22</p>
+                  <a target="_blank" href="https://deixacommarta.com.br/download/Indice_Marta_Ademi_AGO2022.pdf" className="btn download">Visualizar / Baixar</a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
