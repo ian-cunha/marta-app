@@ -18,8 +18,33 @@ function Indices() {
               <div className="card">
                 <div className="card-body">
                   <h5 className="card-title">Índice Marta/Ademi</h5>
+<<<<<<< HEAD
                   <p className="card-text fs-2 fw-semibold">AGO/22</p>
                   <a target="_blank" href="https://deixacommarta.com.br/download/Indice_Marta_Ademi_AGO2022.pdf" className="btn download">Visualizar / Baixar</a>
+=======
+                  <p className="card-text fs-2 fw-semibold">SET/22</p>
+                  <a target="_blank" href="http://deixacommarta.com.br/download/Indice_Marta_Ademi_SET2022_202209_v1.pdf" className="btn download">Visualizar / Baixar</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-6 m-2">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Índice Marta/Ademi</h5>
+                  <p className="card-text fs-2 fw-semibold">AGO/22</p>
+                  <a target="_blank" href="https://deixacommarta.com.br/download/Indice_Marta_Ademi_AGO2022.pdf" className="btn download">Visualizar / Baixar</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-6 m-2">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">Índice Marta/Ademi</h5>
+                  <p className="card-text fs-2 fw-semibold">JUL/22</p>
+                  <a target="_blank" href="https://deixacommarta.com.br/download/Indice_Marta_Ademi_JUL2022_202208.pdf" className="btn download">Visualizar / Baixar</a>
+>>>>>>> f3c15244a73cc7866dfdd33b9bb014097f00c694
                 </div>
               </div>
             </div>
@@ -34,6 +59,7 @@ function Indices() {
               </div>
             </div>
 
+<<<<<<< HEAD
             <div className="col-sm-6 m-2">
               <div className="card">
                 <div className="card-body">
@@ -44,6 +70,8 @@ function Indices() {
               </div>
             </div>
 
+=======
+>>>>>>> f3c15244a73cc7866dfdd33b9bb014097f00c694
           </div>
         </div>
       </div>
