@@ -275,21 +275,21 @@ function Home() {
             <h2 className="fw-bold text-center mt-5 fs-1 color-2">Parceiros</h2>
             <div className="container mt-5">
               <div className="row">
-                <a href="https://www.expoimovel.com/" target="_blank" className="col-sm text-center">
+                <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={expoimovel} alt="Expo Imovel" />
-                </a>
-                <a href="https://www.ademi-pe.com.br/" target="_blank" className="col-sm text-center">
+                </div>
+                <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={ademipe} alt="Ademi PE" />
-                </a>
-                <a href="https://www.valedoave.com.br/" target="_blank" className="col-sm text-center">
+                </div>
+                <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={valedoave} alt="Vale do Ave" />
-                </a>
-                <a href="https://www.harmonyempreendimentos.com.br/" target="_blank" className="col-sm text-center">
+                </div>
+                <div className="col-sm text-center">
                   <img width="130px" height="60px" className="center mb-5" src={harmony} alt="Harmony Empreendimentos" />
-                </a>
-                <a href="https://uchoaconstrucoes.com.br/empreendimentos/" target="_blank" className="col-sm text-center">
+                </div>
+                <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={uchoa} alt="Uchôa" />
-                </a>
+                </div>
               </div>
             </div>
           </div>
