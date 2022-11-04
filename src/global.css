@@ -105,7 +105,7 @@ p.text-icon {
   background-size: cover;
 }
 
-.how-section {
+.section {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -113,7 +113,7 @@ p.text-icon {
   background-color: #5B00BB;
 }
 
-.how-section2 {
+.section2 {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -121,14 +121,14 @@ p.text-icon {
   background-color: white;
 }
 
-.how-section3 {
+.section3 {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.how-section4 {
+.section4 {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

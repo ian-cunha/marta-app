@@ -22,8 +22,10 @@ import benef4 from "../assets/benef4.svg";
 import benef5 from "../assets/benef5.svg";
 import benef6 from "../assets/benef6.svg";
 import expoimovel from "../assets/expoimovel.svg";
-import ademiimoveis from "../assets/ademiimoveis.svg";
 import ademipe from "../assets/ademi-pe.svg";
+import uchoa from "../assets/uchoaemp.svg";
+import harmony from "../assets/harmony.svg";
+import valedoave from "../assets/valedoave.svg";
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Whatsapp from '../components/Whatsapp';
@@ -78,7 +80,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="how-section">
+      <div className="section">
         <div className="d-flex justify-content-center container-fluid">
           <div className="container">
             <img width="160px" className="center mt-5" src={anos} alt="Art by Marta" />
@@ -91,7 +93,7 @@ function Home() {
         <div id="como-funciona"></div>
       </div>
 
-      <div className="how-section">
+      <div className="section">
         <div className="pt-5 d-flex justify-content-center container-fluid">
           <div className="container">
             <h2 className="fw-bold fs-1 text-light text-center mb-5">Como funciona?</h2>
@@ -101,7 +103,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="how-section2">
+      <div className="section2">
         <div className="mt-5 d-flex justify-content-center container-fluid">
           <div className="container">
             <h2 className="fw-bold mb-4 text-center color-1">INTELIGÊNCIA<br />IMOBILIÁRIA</h2>
@@ -122,7 +124,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="how-section2">
+      <div className="section2">
         <div className="mt-5 d-flex justify-content-center container-fluid">
           <div className="container">
             <img width="200px" className="center" src={data} alt="Art by Marta" />
@@ -160,7 +162,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="how-section2">
+      <div className="section2">
         <div className="d-flex justify-content-center container-fluid">
           <div className="container">
             <h2 className="fw-bold fs-1 text-center mt-5 color-1">Benefícios</h2>
@@ -192,7 +194,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="how-section4">
+      <div className="section4">
         <div className="container">
           <h2 className="fw-bold text-center color-1 pt-5">Marta não é o destino. Marta é o caminho.</h2>
           <div className="container mt-5">
@@ -267,21 +269,27 @@ function Home() {
         </div>
       </div>
 
-      <div className="how-section">
+      <div className="section">
         <div id="parceiros" className="d-flex justify-content-center container-fluid">
           <div className="container">
             <h2 className="fw-bold text-center mt-5 fs-1 color-2">Parceiros</h2>
             <div className="container mt-5">
               <div className="row">
-                <div className="col-sm text-center">
+                <a href="https://www.expoimovel.com/" target="_blank" className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={expoimovel} alt="Expo Imovel" />
-                </div>
-                <div className="col-sm text-center">
-                  <img width="130px" className="center mb-5" src={ademiimoveis} alt="Ademi Imoveis" />
-                </div>
-                <div className="col-sm text-center">
+                </a>
+                <a href="https://www.ademi-pe.com.br/" target="_blank" className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={ademipe} alt="Ademi PE" />
-                </div>
+                </a>
+                <a href="https://www.valedoave.com.br/" target="_blank" className="col-sm text-center">
+                  <img width="130px" className="center mb-5" src={valedoave} alt="Vale do Ave" />
+                </a>
+                <a href="https://www.harmonyempreendimentos.com.br/" target="_blank" className="col-sm text-center">
+                  <img width="130px" height="60px" className="center mb-5" src={harmony} alt="Harmony Empreendimentos" />
+                </a>
+                <a href="https://uchoaconstrucoes.com.br/empreendimentos/" target="_blank" className="col-sm text-center">
+                  <img width="130px" className="center mb-5" src={uchoa} alt="Uchôa" />
+                </a>
               </div>
             </div>
           </div>
