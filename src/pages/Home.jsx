@@ -270,14 +270,11 @@ function Home() {
       </div>
 
       <div className="section">
-        <div id="parceiros" className="d-flex justify-content-center container-fluid">
+        <div id="clientes" className="d-flex justify-content-center container-fluid">
           <div className="container">
-            <h2 className="fw-bold text-center mt-5 fs-1 color-2">Parceiros</h2>
+            <h2 className="fw-bold text-center mt-5 fs-1 color-2">Clientes</h2>
             <div className="container mt-5">
               <div className="row">
-                <div className="col-sm text-center">
-                  <img width="130px" className="center mb-5" src={expoimovel} alt="Expo Imovel" />
-                </div>
                 <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={ademipe} alt="Ademi PE" />
                 </div>

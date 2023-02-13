@@ -25,7 +25,7 @@ function Nav() {
                 <a className="nav-link navb" href="#numeros">Números</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link navb" href="#parceiros">Parceiros</a>
+                <a className="nav-link navb" href="#clientes">Clientes</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link navb" href="/indices">Índices Marta</a>

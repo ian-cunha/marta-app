@@ -17,6 +17,16 @@ function Indices() {
             <div className="col-sm-6 m-2">
               <div className="card">
                 <div className="card-body">
+                  <h5 className="card-title">Índice Marta/Fortaleza - CE</h5>
+                  <p className="card-text fs-2 fw-semibold">DEZ/22</p>
+                  <a target="_blank" href="http://deixacommarta.com.br/download/Indice_Marta_CE_Fortaleza_DEZ22_v1.pdf" className="btn download">Visualizar / Baixar</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-6 m-2">
+              <div className="card">
+                <div className="card-body">
                   <h5 className="card-title">Índice Marta/Ademi</h5>
                   <p className="card-text fs-2 fw-semibold">DEZ/22</p>
                   <a target="_blank" href="http://deixacommarta.com.br/download/Indice_Marta_Ademi_PE_DEZ22_v1.pdf" className="btn download">Visualizar / Baixar</a>
@@ -27,7 +37,7 @@ function Indices() {
             <div className="col-sm-6 m-2">
               <div className="card">
                 <div className="card-body">
-                  <h5 className="card-title">Índice Marta/Maceió</h5>
+                  <h5 className="card-title">Índice Marta/Maceió - AL</h5>
                   <p className="card-text fs-2 fw-semibold">DEZ/22</p>
                   <a target="_blank" href="http://deixacommarta.com.br/download/Indice_Marta_AL_DEZ22_v1.pdf" className="btn download">Visualizar / Baixar</a>
                 </div>

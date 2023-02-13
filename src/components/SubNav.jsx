@@ -25,7 +25,7 @@ function SubNav() {
                 <a className="nav-link navb" href="/">Números</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link navb" href="/">Parceiros</a>
+                <a className="nav-link navb" href="/">Clientes</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link navb" href="/indices">Índices Marta</a>
