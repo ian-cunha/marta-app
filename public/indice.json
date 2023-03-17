@@ -1,0 +1,38 @@
+[
+  {
+    "nome": "Índice Marta/Fortaleza",
+    "estado": "CE",
+    "data": "DEZ/22",
+    "url": "http://deixacommarta.com.br/download/Indice_Marta_CE_Fortaleza_DEZ22_v1.pdf"
+  },{
+    "nome": "Índice Marta/Ademi",
+    "estado": "PE",
+    "data": "JUN/22",
+    "url": "https://deixacommarta.com.br/download/Indice_Marta_Ademi_JUN2022_v1_202207.pdf"
+  },{
+    "nome": "Índice Marta/Ademi",
+    "estado": "PE",
+    "data": "JUL/22",
+    "url": "https://deixacommarta.com.br/download/Indice_Marta_Ademi_JUL2022_202208.pdf"
+  },{
+    "nome": "Índice Marta/Ademi",
+    "estado": "PE",
+    "data": "AGO/22",
+    "url": "https://deixacommarta.com.br/download/Indice_Marta_Ademi_AGO2022.pdf"
+  },{
+    "nome": "Índice Marta/Ademi",
+    "estado": "PE",
+    "data": "SET/22",
+    "url": "http://deixacommarta.com.br/download/Indice_Marta_Ademi_SET2022_202209_v1.pdf"
+  },{
+    "nome": "Índice Marta/Maceió",
+    "estado": "AL",
+    "data": "DEZ/22",
+    "url": "http://deixacommarta.com.br/download/Indice_Marta_AL_DEZ22_v1.pdf"
+  },{
+    "nome": "Índice Marta/Ademi",
+    "estado": "PE",
+    "data": "DEZ/22",
+    "url": "http://deixacommarta.com.br/download/Indice_Marta_Ademi_PE_DEZ22_v1.pdf"
+  }
+]
