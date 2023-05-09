@@ -26,6 +26,7 @@ import ademipe from "../assets/ademi-pe.svg";
 import uchoa from "../assets/uchoaemp.svg";
 import harmony from "../assets/harmony.svg";
 import valedoave from "../assets/valedoave.svg";
+import asla from "../assets/aslaengenharia.svg";
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Whatsapp from '../components/Whatsapp';
@@ -286,6 +287,9 @@ function Home() {
                 </div>
                 <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={uchoa} alt="Uchôa" />
+                </div>
+                <div className="col-sm text-center">
+                  <img width="130px" className="center mb-5" src={asla} alt="Asla Engenharia" />
                 </div>
               </div>
             </div>
