@@ -21,12 +21,13 @@ import benef3 from "../assets/benef3.svg";
 import benef4 from "../assets/benef4.svg";
 import benef5 from "../assets/benef5.svg";
 import benef6 from "../assets/benef6.svg";
-import expoimovel from "../assets/expoimovel.svg";
-import ademipe from "../assets/ademi-pe.svg";
 import uchoa from "../assets/uchoaemp.svg";
 import harmony from "../assets/harmony.svg";
 import valedoave from "../assets/valedoave.svg";
 import asla from "../assets/aslaengenharia.svg";
+import ironhouse from "../assets/ironhouse.svg";
+import tolive from "../assets/tolive.svg";
+import albatroz from "../assets/albatroz.svg";
 import malus from "../assets/malus.svg";
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
@@ -277,23 +278,29 @@ function Home() {
             <h2 className="fw-bold text-center mt-5 fs-1 color-2">Clientes</h2>
             <div className="container mt-5">
               <div className="row">
-                <div className="col-sm text-center">
-                  <img width="130px" className="center mb-5" src={ademipe} alt="Ademi PE" />
-                </div>
-                <div className="col-sm text-center">
+                <div className="col-sm text-center d-flex justify-content-center container-fluid">
                   <img width="130px" className="center mb-5" src={valedoave} alt="Vale do Ave" />
                 </div>
                 <div className="col-sm text-center">
                   <img width="130px" height="60px" className="center mb-5" src={harmony} alt="Harmony Empreendimentos" />
                 </div>
                 <div className="col-sm text-center">
-                  <img width="130px" className="center mb-5" src={uchoa} alt="Uchôa" />
+                  <img width="130px" className="center mb-5" src={uchoa} alt="Uchôa Construções" />
                 </div>
                 <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={asla} alt="Asla Engenharia" />
                 </div>
                 <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={malus} alt="Malus Construções e Incorporações" />
+                </div>
+                <div className="col-sm text-center">
+                  <img width="100px" className="center mb-5" src={ironhouse} alt="Iron House Grupo Conêlio Brennand" />
+                </div>
+                <div className="col-sm text-center">
+                  <img width="150px" className="center mb-5" src={tolive} alt="Tolive Incorporadora" />
+                </div>
+                <div className="col-sm text-center">
+                  <img width="130px" className="center mb-5" src={albatroz} alt="Construtora Albatroz" />
                 </div>
               </div>
             </div>
