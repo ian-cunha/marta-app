@@ -29,6 +29,7 @@ import ironhouse from "../assets/ironhouse.svg";
 import tolive from "../assets/tolive.svg";
 import albatroz from "../assets/albatroz.svg";
 import malus from "../assets/malus.svg";
+import gptropical from "../assets/gptropical.svg";
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import Whatsapp from '../components/Whatsapp';
@@ -288,11 +289,13 @@ function Home() {
                   <img width="130px" className="center mb-5" src={uchoa} alt="Uchôa Construções" />
                 </div>
                 <div className="col-sm text-center">
-                  <img width="130px" className="center mb-5" src={asla} alt="Asla Engenharia" />
+                  <img width="150px" className="center mb-5" src={asla} alt="Asla Engenharia" />
                 </div>
                 <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={malus} alt="Malus Construções e Incorporações" />
                 </div>
+              </div>
+              <div className="row">
                 <div className="col-sm text-center">
                   <img width="100px" className="center mb-5" src={ironhouse} alt="Iron House Grupo Conêlio Brennand" />
                 </div>
@@ -301,6 +304,9 @@ function Home() {
                 </div>
                 <div className="col-sm text-center">
                   <img width="130px" className="center mb-5" src={albatroz} alt="Construtora Albatroz" />
+                </div>
+                <div className="col-sm text-center">
+                  <img width="200px" className="center mb-5" src={gptropical} alt="Grupo Tropical" />
                 </div>
               </div>
             </div>
