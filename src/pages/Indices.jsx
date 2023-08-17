@@ -39,7 +39,7 @@ function Indices() {
                       </div>
                     </div>
                   </div>
-                ))};
+                ))}
 
               </div>
 
