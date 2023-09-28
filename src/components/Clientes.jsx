@@ -9,6 +9,7 @@ import malus from "../assets/malus.svg";
 import gptropical from "../assets/gptropical.svg";
 import torreao from "../assets/torreaoVillarim.svg";
 import grupogp from "../assets/grupogp.svg";
+import fck from "../assets/fck.svg";
 
 function Clientes() {
 
@@ -53,6 +54,9 @@ function Clientes() {
               </div>
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={grupogp} alt="Grupo GP" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="150px" className="center mb-5" src={fck} alt="FCK Engenharia" />
               </div>
             </div>
           </div>
