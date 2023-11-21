@@ -10,6 +10,8 @@ import gptropical from "../assets/gptropical.svg";
 import torreao from "../assets/torreaoVillarim.svg";
 import grupogp from "../assets/grupogp.svg";
 import fck from "../assets/fck.svg";
+import ciel from "../assets/ciel.svg";
+import eco from "../assets/eco.svg";
 
 function Clientes() {
 
@@ -35,14 +37,14 @@ function Clientes() {
               <div className="col-sm text-center">
                 <img width="130px" className="center mb-5" src={malus} alt="Malus Construções e Incorporações" />
               </div>
-            </div>
-            <div className="row">
               <div className="col-sm text-center">
                 <img width="100px" className="center mb-5" src={ironhouse} alt="Iron House Grupo Conêlio Brennand" />
               </div>
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={tolive} alt="Tolive Incorporadora" />
               </div>
+            </div>
+            <div className="row">
               <div className="col-sm text-center">
                 <img width="130px" className="center mb-5" src={albatroz} alt="Construtora Albatroz" />
               </div>
@@ -57,6 +59,12 @@ function Clientes() {
               </div>
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={fck} alt="FCK Engenharia" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="150px" className="center mb-5" src={ciel} alt="Ciel Engenharia" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="100px" className="center mb-5" src={eco} alt="Eco Construções" />
               </div>
             </div>
           </div>
