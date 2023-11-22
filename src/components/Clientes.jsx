@@ -12,6 +12,8 @@ import grupogp from "../assets/grupogp.svg";
 import fck from "../assets/fck.svg";
 import ciel from "../assets/ciel.svg";
 import eco from "../assets/eco.svg";
+import consenco from "../assets/consenco.svg";
+import massai from "../assets/massai.svg";
 
 function Clientes() {
 
@@ -43,11 +45,11 @@ function Clientes() {
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={tolive} alt="Tolive Incorporadora" />
               </div>
-            </div>
-            <div className="row">
               <div className="col-sm text-center">
                 <img width="130px" className="center mb-5" src={albatroz} alt="Construtora Albatroz" />
               </div>
+            </div>
+            <div className="row">
               <div className="col-sm text-center">
                 <img width="200px" className="center mb-5" src={gptropical} alt="Grupo Tropical" />
               </div>
@@ -65,6 +67,12 @@ function Clientes() {
               </div>
               <div className="col-sm text-center">
                 <img width="100px" className="center mb-5" src={eco} alt="Eco Construções" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="150px" className="center mb-5" src={consenco} alt="Consenco Edificações" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="150px" className="center mb-5" src={massai} alt="Massai Construções e Incorporações" />
               </div>
             </div>
           </div>
