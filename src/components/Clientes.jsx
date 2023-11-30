@@ -14,6 +14,7 @@ import ciel from "../assets/ciel.svg";
 import eco from "../assets/eco.svg";
 import consenco from "../assets/consenco.svg";
 import massai from "../assets/massai.svg";
+import argila from "../assets/argila.svg";
 
 function Clientes() {
 
@@ -39,6 +40,8 @@ function Clientes() {
               <div className="col-sm text-center">
                 <img width="130px" className="center mb-5" src={malus} alt="Malus Construções e Incorporações" />
               </div>
+            </div>
+            <div className="row">
               <div className="col-sm text-center">
                 <img width="100px" className="center mb-5" src={ironhouse} alt="Iron House Grupo Conêlio Brennand" />
               </div>
@@ -48,14 +51,14 @@ function Clientes() {
               <div className="col-sm text-center">
                 <img width="130px" className="center mb-5" src={albatroz} alt="Construtora Albatroz" />
               </div>
-            </div>
-            <div className="row">
               <div className="col-sm text-center">
                 <img width="200px" className="center mb-5" src={gptropical} alt="Grupo Tropical" />
               </div>
               <div className="col-sm text-center">
                 <img width="200px" className="center mb-5" src={torreao} alt="Torreão Villarim" />
               </div>
+            </div>
+            <div className="row">
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={grupogp} alt="Grupo GP" />
               </div>
@@ -73,6 +76,9 @@ function Clientes() {
               </div>
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={massai} alt="Massai Construções e Incorporações" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="100px" className="center mb-5" src={argila} alt="Argila Incorporações" />
               </div>
             </div>
           </div>
