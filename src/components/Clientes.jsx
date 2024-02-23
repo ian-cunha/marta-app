@@ -15,6 +15,8 @@ import eco from "../assets/eco.svg";
 import consenco from "../assets/consenco.svg";
 import massai from "../assets/massai.svg";
 import argila from "../assets/argila.svg";
+import abcortereal from "../assets/abcortereal.svg";
+import vexa from "../assets/vexa.svg";
 
 function Clientes() {
 
@@ -57,11 +59,11 @@ function Clientes() {
               <div className="col-sm text-center">
                 <img width="200px" className="center mb-5" src={torreao} alt="Torreão Villarim" />
               </div>
-            </div>
-            <div className="row">
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={grupogp} alt="Grupo GP" />
               </div>
+            </div>
+            <div className="row">
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={fck} alt="FCK Engenharia" />
               </div>
@@ -79,6 +81,12 @@ function Clientes() {
               </div>
               <div className="col-sm text-center">
                 <img width="100px" className="center mb-5" src={argila} alt="Argila Incorporações" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="100px" className="center mb-5" src={abcortereal} alt="AB Côrte Real" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="150px" className="center mb-5" src={vexa} alt="Vexa Incorporações" />
               </div>
             </div>
           </div>
