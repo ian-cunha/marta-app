@@ -17,6 +17,7 @@ import massai from "../assets/massai.svg";
 import argila from "../assets/argila.svg";
 import abcortereal from "../assets/abcortereal.svg";
 import vexa from "../assets/vexa.svg";
+import maisconstrutora from "../assets/maisconstrutora.svg"
 
 function Clientes() {
 
@@ -87,6 +88,9 @@ function Clientes() {
               </div>
               <div className="col-sm text-center">
                 <img width="150px" className="center mb-5" src={vexa} alt="Vexa Incorporações" />
+              </div>
+              <div className="col-sm text-center">
+                <img width="150px" className="center mb-5" src={maisconstrutora} alt="Mais Construtora" />
               </div>
             </div>
           </div>
