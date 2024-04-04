@@ -14,6 +14,15 @@ body {
   color: #FF5A2D;
 }
 
+.bg-od {
+  background-color: #5B00BB;
+  width: 100%;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-top: 24px;
+}
+
 .download {
   background-color: #5B00BB;
   color: white;
@@ -29,19 +38,42 @@ body {
 }
 
 .bg-2 {
-  background-color: #FFAA03;
+  background-color: white;
 }
 
 .bg-3 {
-  background-color: #FF5A2D;
+  background-color: #FFAA03;
 }
 
 .bg-4 {
   background-color: #111111;
 }
 
+.bg-5 {
+  background-color: #111111;
+}
+
 .justify {
   text-align: justify;
+}
+
+.marta-block {
+  margin-top: 110px;
+  overflow-x: hidden;
+}
+
+.texts-marta {
+  text-align: left;
+}
+
+.decisao {
+  font-size: 2em;
+  color: #FFAA03;
+}
+
+h2.text-icon {
+  font-size: 3em;
+  font-weight: bold;
 }
 
 p.text-icon {
@@ -53,15 +85,42 @@ p.text-icon {
   position: relative;
   width: 100%;
   height: auto;
-  background: url("assets/bg.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  background-color: white;
   margin-bottom: -2px;
 }
 
+.icon-search {
+  width: 300px;
+  padding: 24px;
+}
+
+.bg-mercado {
+  background-color: #FFAA03;
+  text-align: right;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.p-marta {
+  font-size: 1.2em;
+  font-weight: semibold;
+}
+
 @media (max-width: 600px) {
+  .texts-marta {
+    text-align: center;
+  }
+  .bg-mercado {
+    padding-top: 15px;
+    text-align: center;
+  }
+  .align-mercado {
+    text-align: center;
+  }
   .masthead {
     position: relative;
     width: 100%;
@@ -69,12 +128,13 @@ p.text-icon {
     min-height: 30rem;
     padding-top: 9rem;
     padding-bottom: 5rem;
-    background: url("assets/bg.webp");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
     margin-bottom: -2px;
+  }
+  .text-h1 {
+    text-align: center;
+  }
+  .icon-search {
+    width: 250px;
   }
 }
 
@@ -141,6 +201,10 @@ img.center {
   margin: 0 auto;
 }
 
+.img-data {
+  width: 800px;
+}
+
 .mobile {
   width: auto;
   text-align: center;
@@ -158,6 +222,10 @@ img.center {
   .mobile {
     width: auto;
     text-align: center;
+  }
+
+  .img-data {
+    width: 100%;
   }
 
   .mobile h2 {
@@ -194,16 +262,18 @@ img.center {
 }
 
 .login:hover {
-  color: #ffffff;
+  color: black;
   text-decoration: underline;
 }
 
 .navb {
-  color: #ffffff;
+  color: #2c2c2c;
+  font-weight: lighter;
 }
 
 .navb:hover {
-  color: #2c2c2c;
+  color: #FFAA03;
+  font-weight: 600;
 }
 
 .indices {

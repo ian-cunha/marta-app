@@ -4,7 +4,7 @@ import Whatsapp from '../components/Whatsapp';
 import Clientes from "../components/Clientes";
 import Numeros from "../components/Numeros";
 import Sobre from "../components/Sobre";
-import Beneficios from "../components/Beneficios";
+import Beneficios from "../components/BeneficiosComp";
 import ComoFunciona from "../components/ComoFunciona";
 import InteligenciaImobiliaria from "../components/InteligenciaImobiliaria";
 import Conhecimento from "../components/Conhecimento";
@@ -20,10 +20,6 @@ function Home() {
       <Topo />
       <Sobre />
       <Proposito />
-      <ComoFunciona />
-      <InteligenciaImobiliaria />
-      <Conhecimento />
-      <Beneficios />
       <Numeros />
       <Clientes />
       <Footer />

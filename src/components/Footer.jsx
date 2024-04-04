@@ -3,7 +3,7 @@ import logoMarta from "../assets/logoMarta.svg";
 function Footer() {
   
   return (
-    <footer className="bg-dark text-light p-5">
+    <footer className="bg-5 text-light p-5">
       <div className="d-flex flex-sm-row flex-column justify-content-around align-items-center">
         <div>
           <img width="200px" className="center mt-2 mb-2" src={logoMarta} alt="Art by Marta" />

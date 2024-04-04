@@ -1,7 +1,7 @@
-import SubNav from '../components/SubNav'
 import Footer from '../components/Footer'
 import Whatsapp from '../components/Whatsapp'
 import indiceJSON from "/public/indice.json"
+import Nav from '../components/Nav';
 
 function Indices() {
 
@@ -16,7 +16,7 @@ function Indices() {
 
   return (
     <div>
-      <SubNav />
+      <Nav />
       <Whatsapp />
 
       <div className='indices'>

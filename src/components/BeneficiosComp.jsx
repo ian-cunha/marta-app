@@ -10,7 +10,7 @@ import benef4 from "../assets/benef4.svg";
 import benef5 from "../assets/benef5.svg";
 import benef6 from "../assets/benef6.svg";
 
-function Beneficios() {
+function BeneficiosComp() {
 
   return (
     <>
@@ -94,4 +94,4 @@ function Beneficios() {
   )
 }
 
-export default Beneficios
+export default BeneficiosComp

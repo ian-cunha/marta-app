@@ -8,22 +8,12 @@ function Numeros() {
           <div className="container mt-5">
             <div className="row">
               <div className="col-sm text-center">
-                <h2 className="text-icon fs-1 fw-bold color-1">+20 anos</h2>
-                <p className="text-icon fs-6 mt-2">dados coletados e analisados.</p>
+                <h2 className="text-icon fw-bold color-1">+244</h2>
+                <p className="text-icon fs-6 mt-2">Clientes monitorados em tempo real.</p>
               </div>
               <div className="col-sm text-center">
-                <h2 className="text-icon fs-1 fw-bold color-1">+100 milhões</h2>
-                <p className="text-icon fs-6 mt-2">atividades imobiliárias monitoradas.</p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-sm text-center">
-                <h2 className="text-icon fs-1 fw-bold color-1">+150 mil</h2>
-                <p className="text-icon fs-6 mt-2">Imóveis e empreendimentos cadastrados.</p>
-              </div>
-              <div className="col-sm text-center">
-                <h2 className="text-icon fs-1 fw-bold color-1">+10 mil</h2>
-                <p className="text-icon fs-6 mt-2">Incorporadoras, corretores e imobiliárias.</p>
+                <h2 className="text-icon fw-bold color-1">+1,5 milhões/mês</h2>
+                <p className="text-icon fs-6 mt-2">Atividades de clientes monitoradas.</p>
               </div>
             </div>
           </div>
