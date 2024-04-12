@@ -10,7 +10,7 @@ function Mercado() {
             <Nav />
             <Whatsapp />
             <div className="marta-block container d-flex flex-column justify-content-center align-items-center mb-5">
-                <h2>COMPORTAMENTO DO MERCADO</h2>
+                <h2 className="fw-bold fs-1 text-center">COMPORTAMENTO DO MERCADO</h2>
                 <div className="d-flex flex-sm-row flex-column justify-content-center align-items-center mt-4">
                     <div className="row align-mercado">
                         <h4>Como as construtoras e incorporadoras capturam dados do mercado (oferta e demanda) para auxiliar as suas:

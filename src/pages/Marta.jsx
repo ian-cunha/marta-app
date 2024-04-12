@@ -11,7 +11,7 @@ function Marta() {
             <Nav />
             <Whatsapp />
             <div className="marta-block container d-flex flex-column justify-content-center align-items-center">
-                <h2 className="fs-1">MARTA INTELIGÊNCIA</h2>
+                <h2 className="fs-1 fw-bold">MARTA INTELIGÊNCIA</h2>
                 <div className="d-flex flex-sm-row flex-column justify-content-center align-items-center">
                     <img className="p-4" src={block} />
                     <div className="texts-marta">

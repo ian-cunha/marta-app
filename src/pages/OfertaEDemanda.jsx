@@ -8,8 +8,8 @@ function OfertaEDemanda() {
         <>
             <Nav />
             <Whatsapp />
-            <div className="marta-block container d-flex flex-column justify-content-center align-items-center mb-5">
-                <h2>OFERTA & DEMANDA</h2>
+            <div className="marta-block2 container d-flex flex-column justify-content-center align-items-center mb-5">
+                <h2 className="fs-1 fw-bold">OFERTA & DEMANDA</h2>
                 <div className="d-flex flex-sm-row flex-column justify-content-center align-items-center mt-4">
                     <div>
                         <h2>+25 mil</h2>
@@ -38,7 +38,7 @@ function OfertaEDemanda() {
                         <h2>Informação como serviço</h2>
                         <p>Tecnologia não é tudo</p>
                         <p>Informação entregue em todos os formatos que as pessoas fazem a incorporadora/construtora são acostumadas a consumir:</p>
-                        <h2 className="color-2 fw-bold">Plataforma<br />
+                        <h2 className="h2-oed color-2 fw-bold">Plataforma<br />
                             Digital<br />
                             Físico</h2>
                     </div>

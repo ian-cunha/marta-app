@@ -17,10 +17,14 @@ body {
 .bg-od {
   background-color: #5B00BB;
   width: 100%;
+  height: 100vh;
   border-radius: 10px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 50px;
   margin-top: 24px;
+}
+
+.h2-oed {
+  font-size: 3em;
 }
 
 .download {
@@ -58,8 +62,20 @@ body {
 }
 
 .marta-block {
-  margin-top: 110px;
+  margin-top: 50px;
+  height: 100vh;
   overflow-x: hidden;
+}
+
+.marta-block2 {
+  margin-top: 120px;
+  height: 100vh;
+}
+
+.comercio {
+  margin-top: 120px;
+  height: 100vh;
+  width: 100%;
 }
 
 .texts-marta {
@@ -85,13 +101,19 @@ p.text-icon {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: white;
+  background-image: url(./assets/bg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin-bottom: -2px;
 }
 
 .icon-search {
-  width: 300px;
+  width: 350px;
   padding: 24px;
+}
+
+.h6-sobre {
+  text-align: justify;
 }
 
 .bg-mercado {
@@ -110,17 +132,25 @@ p.text-icon {
   font-weight: semibold;
 }
 
+.text-h1 {
+  text-align: left;
+  font-size: 4em;
+}
+
 @media (max-width: 600px) {
   .texts-marta {
     text-align: center;
   }
+
   .bg-mercado {
     padding-top: 15px;
     text-align: center;
   }
+
   .align-mercado {
     text-align: center;
   }
+
   .masthead {
     position: relative;
     width: 100%;
@@ -129,12 +159,17 @@ p.text-icon {
     padding-top: 9rem;
     padding-bottom: 5rem;
     margin-bottom: -2px;
+    background-repeat: no-repeat;
+    background-size: auto;
   }
+
   .text-h1 {
     text-align: center;
+    font-size: 4em;
   }
+
   .icon-search {
-    width: 250px;
+    width: 300px;
   }
 }
 
@@ -194,6 +229,7 @@ p.text-icon {
   background-attachment: scroll;
   background-size: cover;
   background: rgb(255, 170, 3);
+  margin-bottom: -8px;
 }
 
 img.center {

@@ -8,10 +8,9 @@ function Comercializacao() {
         <>
             <Nav />
             <Whatsapp />
-            <h2>Comercialização</h2>
-            <h2>Comercialização</h2>
-            <h2>Comercialização</h2>
-            <h2>Comercialização</h2>
+            <div className="container comercio">
+                <h2 className="fs-1 fw-bold">Comercialização</h2>
+            </div>
             <Footer />
         </>
     )
