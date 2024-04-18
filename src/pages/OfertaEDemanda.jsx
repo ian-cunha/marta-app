@@ -10,29 +10,40 @@ function OfertaEDemanda() {
             <Whatsapp />
             <div className="marta-block2 container d-flex flex-column justify-content-center align-items-center mb-5">
                 <h2 className="fs-1 fw-bold">OFERTA & DEMANDA</h2>
-                <div className="d-flex flex-sm-row flex-column justify-content-center align-items-center mt-4">
-                    <div>
+                <div className="w-100 container d-flex flex-sm-row flex-column justify-content-center mt-4">
+                    <div className="w-100">
                         <h2>+25 mil</h2>
                         <p>unidades a venda (mercado primário)</p>
                     </div>
-                    <div>
+                    <div className="w-100">
                         <h2>+14,0 bilhões</h2>
                         <p>VGV de unidade a venda.</p>
                     </div>
                 </div>
-                <div>
-                    <h2>Serviços</h2>
-                    <ul>
-                        <li>Atualização e analise de dados</li>
-                        <li>Analise e entendimento dos comportamentos</li>
-                    </ul>
-                    <h2>Tecnologias</h2>
-                    <ul>
-                        <li>Plataforma de gestão</li>
-                        <li>Inteligência computacional</li>
-                        <li>Enriquecimento dos dados</li>
-                    </ul>
+
+                <div class="row w-100">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card bg-3">
+                            <div class="card-body">
+                                <h5 class="card-title fs-2">Serviços</h5>
+                                <p class="card-text">Atualização e analise de dados</p>
+                                <p class="card-text">Analise e entendimento dos comportamentos</p>
+                                <p class="card-text">ㅤ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card bg-3">
+                            <div class="card-body">
+                                <h5 class="card-title fs-2">Tecnologias</h5>
+                                <p class="card-text">Plataforma de gestão</p>
+                                <p class="card-text">Inteligência computacional</p>
+                                <p class="card-text">Enriquecimento dos dados</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="bg-od">
                     <div className="container p-3 text-light">
                         <h2>Informação como serviço</h2>

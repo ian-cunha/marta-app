@@ -25,7 +25,7 @@ function Nav() {
                 <a className="nav-link navb" href="/ofertaedemanda">Oferta & Demanda</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link navb" href="/comercializacao">Comercialização</a>
+                <a className="nav-link navb" href="/comercializacao">Visão 360°</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link navb" href="/beneficios">Benefícios</a>
