@@ -139,6 +139,10 @@ p.text-icon {
     text-align: center;
   }
 
+  .h2-oed {
+    font-size: 2em;
+  }
+
   .bg-mercado {
     padding-top: 15px;
     text-align: center;
